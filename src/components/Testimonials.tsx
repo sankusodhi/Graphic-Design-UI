@@ -40,7 +40,7 @@ const Testimonials = () => {
     
     <div className="p-6 sm:px-28">
       <h2 className=" text-6xl text-center mb-6">Clients are Pitching about us.</h2>
-      <div className="flex  gap-4 mb-4">
+      <div className="flex justify-center gap-4 mb-4">
         <button 
           onClick={prev} 
           disabled={startIndex === 0} 
