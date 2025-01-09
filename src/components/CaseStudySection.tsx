@@ -116,8 +116,8 @@ const CaseStudySection = () => {
             <img
               src="/assets/park+.png"
               alt="Park+"
-
-              className="w-24 sm:w-28 sm:pr-2"
+              className="w-24 sm:w-28 transition-transform duration-300 hover:scale-110"
+              // className="w-24 sm:w-28 sm:pr-2"
             />
           </a>
           <a href="/">
@@ -125,7 +125,8 @@ const CaseStudySection = () => {
               src="/assets/piramal-new.svg"
               alt="Piramal"
 
-              className="w-24 sm:w-28"
+              // className="w-24 sm:w-28"
+              className="w-24 sm:w-28 transition-transform duration-300 hover:scale-110"
             />
           </a>
 
@@ -135,7 +136,8 @@ const CaseStudySection = () => {
               src="/assets/adani_logo.png"
               alt="Adani"
 
-              className="w-24 sm:w-28"
+              // className="w-24 sm:w-28"
+              className="w-24 sm:w-28 transition-transform duration-300 hover:scale-110"
             />
           </a>
 
@@ -145,7 +147,8 @@ const CaseStudySection = () => {
               src="/assets/Screenshot 2025-01-04 145058.png"
               alt="RVshare"
 
-              className="w-24 sm:w-28"
+              // className="w-24 sm:w-28"
+              className="w-24 sm:w-28 transition-transform duration-300 hover:scale-110"
             />
           </a>
 
@@ -155,7 +158,8 @@ const CaseStudySection = () => {
               src="/assets/apollo247.svg"
               alt="Apollo 247"
 
-              className="w-24 sm:w-28"
+              // className="w-24 sm:w-28"
+              className="w-24 sm:w-28 transition-transform duration-300 hover:scale-110"
             />
           </a>
         </div>
