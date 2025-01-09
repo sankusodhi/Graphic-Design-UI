@@ -1,11 +1,19 @@
 
 "use client";
+import { useState } from 'react';
 import { motion } from "framer-motion";
 
 const CreativeTalentSection = () => {
+
+  const [activeButton, setActiveButton] = useState('candidates');
+
+  const handleClick = (button) => {
+    setActiveButton(button);
+  };
+
   return (
     <section className="py-12 bg-gray-50 md:pl-1 overflow-x-hidden">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center md:ml-20">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center md:ml-20 lg:ml-28">
         {/* Left Section */}
         <motion.div
           className="lg:w-1/2 text-center lg:text-left px-4 sm:px-7  sm:py-3"
@@ -14,13 +22,19 @@ const CreativeTalentSection = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="flex text-xl mb-4 justify-center sm:justify-start">
-            <div className="text-[#1600ea] cursor-pointer border-b-4 border-blue-600">
-              <p className="px-2">For Candidates</p>
-            </div>
-            <div className="text-gray-400 cursor-pointer border-b-2 border-grey-500 pb-4">
-              <p className="px-2">For Enterprises</p>
-            </div>
-          </div>
+      <div
+        className={`cursor-pointer px-2 ${activeButton === 'candidates' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
+        onClick={() => handleClick('candidates')}
+      >
+        <p>For Candidates</p>
+      </div>
+      <div
+        className={`cursor-pointer px-2 ${activeButton === 'enterprises' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
+        onClick={() => handleClick('enterprises')}
+      >
+        <p>For Enterprises</p>
+      </div>
+    </div>
           <div className="sm:py-4">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl w-[90%] sm:w-[80%] mb-6 text-black leading-tight">
             Scale your Teams Faster by Hiring the{" "}
@@ -51,7 +65,7 @@ const CreativeTalentSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="relative md:h-[590px] h-[400px] md:w-[565px] w-full pt-10 rounded-lg p-6 sm:mb-3 ">
+          <div className="relative md:h-[590px]  h-[400px] md:w-[565px] w-full pt-10 rounded-lg p-6 sm:mb-3 ">
             <img className="w-full mt-9 h-full object-cover sm:ml-[12px] sm:mr-8" src="/pic-09.png" alt="Arjun Mehta" />
           </div>
         </motion.div>

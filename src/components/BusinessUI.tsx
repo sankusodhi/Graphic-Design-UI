@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 function BusinessUI() {
   return (
-    <div className="bg-[#120d23] text-white font-sans sm:px-16">
+    <div className="bg-[#120d23] text-white font-sans sm:px-16 gap-8 lg:px-14">
       <section className="text-center pt-20 py-12">
         <h1 className="text-4xl sm:text-6xl mb-4 mt-8">
           How we are best for your business.
         </h1>
-        <div className="sm:flex justify-center gap-8 text-xl pt-12 pb-8">
+        <div className=" flex sm:flex justify-center gap-8 text-xl pt-12 pb-8">
           <div className="text-center">
             <h2 className="text-4xl sm:text-6xl mt-8 ">$10M+ </h2>
             <p>Revenue for Clients</p>
@@ -27,13 +27,13 @@ function BusinessUI() {
         </div>
       </section>
 
-      <hr className="w-[895px] mx-auto sm:mx-60 mb-8" />
+      <hr className="w-[895px] mx-auto lg:mx-auto sm:mx-60 mb-8" />
 
       <section className="text-center py-12">
         <h2 className="text-4xl sm:text-6xl mb-24">
           Explore Perfect needs with us.
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4 sm:px-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4 sm:px-12 lg:px-24">
           {[
             {
               title: "Campaign Planning",

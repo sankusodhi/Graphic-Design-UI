@@ -109,7 +109,7 @@ function Footer() {
             <li className="mb-2">About Us</li>
             <p className="pb-4">Join our team</p>
             <li>
-              <a href="#" className="text-white hover:underline border min-w-10 border-[#1600ea] bg-[#1600ea] rounded p-2">
+              <a href="#" className="text-white hover:underline border  border-[#1600ea] bg-[#1600ea] rounded p-2 sm:px-4 sm:py-2">
                 Join team
               </a>
             </li>
@@ -117,13 +117,13 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="sm:mr-[580px] text-center sm:text-start  ml-14 sm:ml-0 " style={{ transform: 'translateX(-0.6in)' }}>
+        <div className="sm:mr-[580px] text-center sm:text-start  ml-14 sm:ml-0 " style={{ transform: 'translateX(-0.9in)' }}>
           <h5 className="text-lg font-semibold mb-4  text-[#908134]">ADDRESS</h5>
           <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
 
         {/* Get in Touch */}
-        <div className="sm:ml-44 text-center sm:transform sm:translate-x-[1px]">
+        <div className="sm:ml-44 text-center sm:transform sm:translate-x-[19px]">
           <h5 className="text-lg  font-semibold mb-4 text-start text-[#908134]">GET IN TOUCH</h5>
           <div className=" text-start">
           <p>Please connect with us at</p>
@@ -166,7 +166,7 @@ function Footer() {
 
       <div className="container mx-auto  py-4 sm:flex flex-col md:flex-row items-center justify-between border-t border-[#192138c9]">
         <p className="text-sm text-[#1700ea6d] ">© 2024, Name Inc. All Rights Reserved.</p>
-        <ul className="flex sm:mr-20 space-x-4 text-center transform translate-x-[3.4in]">
+        <ul className="flex sm:mr-20 space-x-4 text-center transform translate-x-[0.5in]">
           <li>
             <a href="#" className="text-[#1700ea6d] hover:underline">
               Terms of Service
