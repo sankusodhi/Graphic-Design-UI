@@ -7,7 +7,7 @@ const CreativeTalentSection = () => {
 
   const [activeButton, setActiveButton] = useState('candidates');
 
-  const handleClick = (button) => {
+  const handleClick = (button: string) => {
     setActiveButton(button);
   };
 
