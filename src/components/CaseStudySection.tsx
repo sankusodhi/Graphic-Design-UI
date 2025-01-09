@@ -178,6 +178,7 @@ const CaseStudySection = () => {
             <h3 className="text-xl sm:text-3xl lg:text-5xl  space-x-10 tracking-widest leading-8 mb-8">
               "Reimagining a Legacy: Redefining Top's India Brand Identity and Strategy for the Modern Consumer"
             </h3>
+            <hr className="w-[580px]" />
             <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12 justify-center md:justify-start">
               <div>
                 <p className="text-3xl sm:text-5xl text-green-400">250%</p>
@@ -207,7 +208,7 @@ const CaseStudySection = () => {
             <img
               src="/pic-10.png"
               alt="Tops Case Study"
-              className="rounded-lg shadow-lg w-[400px] sm:w-[490px] md:w-[530px] h-auto sm:mr-4"
+              className="rounded-lg shadow-lg  lg:w-[525px] h-[490px]  sm:w-[490px] md:w-[530px]  sm:mr-4"
             />
           </motion.div>
         </div>
