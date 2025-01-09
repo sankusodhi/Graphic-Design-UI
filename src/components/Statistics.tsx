@@ -52,7 +52,7 @@ with your audience.
         >
           
           <div className='p-6 mt-6'>
-          <h3 className="text-6xl font-bold mb-2">Creatives that Drives Revenue 💰</h3>
+          <h3 className="text-5xl font-bold mb-8">Creatives that Drives Revenue 💰</h3>
           <p className="text-xl mb-4">
             Strategically crafted concepts that captivate engagement and boost conversions to maximize profitability.
           </p>
@@ -76,7 +76,7 @@ with your audience.
           className="bg-white text-black rounded-lg shadow-lg"
         >
           <div className='sm:p-6'>
-          <h3 className="text-6xl font-bold mb-2">Top-notch quality, consistently delivered with excellence 🤩</h3>
+          <h3 className="text-5xl  font-bold mb-8">Top-notch quality, consistently delivered with excellence 🤩</h3>
           <p className="text-xl mb-4">
             Scale your content with precisely crafted visuals that ensure consistency
 and lasting impact, seamlessly aligning with your brand to create engaging,
