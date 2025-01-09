@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function BusinessUI() {
   return (
-    <div className="bg-[#120d23] text-white font-sans sm:px-16 gap-8 lg:px-14">
+    <div className="bg-[#120d23] text-white font-sans sm:px-20 gap-8 lg:px-3">
       <section className="text-center pt-20 py-12">
         <h1 className="text-4xl sm:text-6xl mb-4 mt-8">
           How we are best for your business.

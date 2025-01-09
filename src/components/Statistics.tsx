@@ -18,7 +18,7 @@ export default function BenefitSection() {
         {/* Card 1 */}
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="bg-white text-black  p-4 sm:p-0 rounded-lg shadow-lg sm:flex  sm::mx-28"
+          className="bg-white text-black  p-4 sm:p-1 rounded-lg shadow-lg sm:flex  sm::mx-28"
         >
          
           <div className='sm:w-[70%] sm:p-20 '>
@@ -52,7 +52,7 @@ with your audience.
         >
           
           <div className='p-6 mt-6'>
-          <h3 className="text-4xl font-bold mb-2">Creatives that Drives Revenue 💰</h3>
+          <h3 className="text-6xl font-bold mb-2">Creatives that Drives Revenue 💰</h3>
           <p className="text-xl mb-4">
             Strategically crafted concepts that captivate engagement and boost conversions to maximize profitability.
           </p>
@@ -75,8 +75,8 @@ with your audience.
           whileHover={{ scale: 1.05 }}
           className="bg-white text-black rounded-lg shadow-lg"
         >
-          <div className='p-6'>
-          <h3 className="text-4xl font-bold mb-2">Top-notch quality, consistently delivered with excellence 🤩</h3>
+          <div className='sm:p-6'>
+          <h3 className="text-6xl font-bold mb-2">Top-notch quality, consistently delivered with excellence 🤩</h3>
           <p className="text-xl mb-4">
             Scale your content with precisely crafted visuals that ensure consistency
 and lasting impact, seamlessly aligning with your brand to create engaging,
@@ -84,9 +84,9 @@ resonant results.
           </p>
           <a href="#" className="text-[#1600ea] font-medium">Know More →</a>
           </div>
-          <div className="text-center sm:pt-[78px]">
+          <div className="text-center sm:pt-[19.8px]">
       
-            <img className='sm:h-full  sm:pl-[24px] rounded-lg'
+            <img className='sm:h-full pt-[40px]  sm:pl-[24px] rounded-lg'
                 src="/pic-17.png"
                 alt="Arjun Mehta"
 

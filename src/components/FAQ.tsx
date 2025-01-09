@@ -22,7 +22,7 @@ const toggleQuestion = (id: number) => {
 };
 
   return (
-    <div className="w-full text-left-0 mx-auto mt-16 px-4 sm:px-6 mb-16 md:px-28 lg:px-48" >
+    <div className="w-full text-left-0 mx-auto mt-16 px-4 sm:px-6 mb-16 md:px-28 lg:px-28" >
       <h1 className="text-6xl font-semibold text-center mb-6">
         Resolve your Doubts here.
       </h1>

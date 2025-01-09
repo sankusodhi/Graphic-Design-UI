@@ -109,7 +109,7 @@ function Footer() {
             <li className="mb-2">About Us</li>
             <p className="pb-4">Join our team</p>
             <li>
-              <a href="#" className="text-white hover:underline border  border-[#1600ea] bg-[#1600ea] rounded p-2 sm:px-4 sm:py-2">
+              <a href="#" className="text-white hover:underline border  border-[#1600ea] bg-[#1600ea] rounded sm:p-1">
                 Join team
               </a>
             </li>
