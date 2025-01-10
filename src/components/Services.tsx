@@ -317,7 +317,7 @@ export default function TakeAdvantageSection() {
       transition={{ duration: 0.8, ease: "easeOut" }}
       >
       <div className="container mx-auto">
-        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-4">
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 ml-3 px-4">
           {items.slice(0, visibleCount).map((item, index) => (
             <motion.div
               key={index}
