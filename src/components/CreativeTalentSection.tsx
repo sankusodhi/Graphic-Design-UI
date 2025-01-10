@@ -22,39 +22,39 @@ const CreativeTalentSection = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="flex text-xl mb-4 justify-center sm:justify-start">
-      <div
-        className={`cursor-pointer px-2 ${activeButton === 'candidates' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
-        onClick={() => handleClick('candidates')}
-      >
-        <p>For Candidates</p>
-      </div>
-      <div
-        className={`cursor-pointer px-2 ${activeButton === 'enterprises' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
-        onClick={() => handleClick('enterprises')}
-      >
-        <p>For Enterprises</p>
-      </div>
-    </div>
+            <div
+              className={`cursor-pointer px-2 ${activeButton === 'candidates' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
+              onClick={() => handleClick('candidates')}
+            >
+              <p>For Candidates</p>
+            </div>
+            <div
+              className={`cursor-pointer px-2 ${activeButton === 'enterprises' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
+              onClick={() => handleClick('enterprises')}
+            >
+              <p>For Enterprises</p>
+            </div>
+          </div>
           <div className="sm:py-4">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl w-[90%] sm:w-[80%] mb-6 text-black leading-tight">
-            Scale your Teams Faster by Hiring the{" "}
-            <span className="text-[#1600ea]">Top 1%</span> Skilled Creative
-            Talent.
-          </h1>
-          <p className="text-gray-700 mb-6 w-[90%] sm:w-[78%] pt-6">
-            Join an exclusive talent pool and connect with leading brands
-            searching for top creative professionals. Showcase your expertise,
-            land your dream role, and redefine your career with endless
-            opportunities.
-          </p>
-          <ul className="list-disc pl-8 text-gray-700 mb-6">
-            <li>Get Placed with Top Brands Like Google and Amazon.</li>
-            <li>Showcase Your Creative Talent to the World.</li>
-            <li>Get Hired for Projects That Elevate Your Career.</li>
-          </ul>
-          <button className="px-6 py-3 bg-[#1600ea] text-white font-semibold rounded-md hover:bg-blue-700">
-            Become Talent
-          </button>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl w-[90%] sm:w-[80%] mb-6 text-black leading-tight">
+              Scale your Teams Faster by Hiring the{" "}
+              <span className="text-[#1600ea]">Top 1%</span> Skilled Creative
+              Talent.
+            </h1>
+            <p className="text-gray-700 mb-6 w-[90%] sm:w-[78%] pt-6">
+              Join an exclusive talent pool and connect with leading brands
+              searching for top creative professionals. Showcase your expertise,
+              land your dream role, and redefine your career with endless
+              opportunities.
+            </p>
+            <ul className="list-disc pl-8 text-gray-700 mb-6">
+              <li>Get Placed with Top Brands Like Google and Amazon.</li>
+              <li>Showcase Your Creative Talent to the World.</li>
+              <li>Get Hired for Projects That Elevate Your Career.</li>
+            </ul>
+            <button className="px-6 py-3 bg-[#1600ea] text-white font-semibold rounded-md hover:bg-blue-700">
+              Become Talent
+            </button>
           </div>
         </motion.div>
 
@@ -65,9 +65,15 @@ const CreativeTalentSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="relative md:h-[560px]  h-[400px] md:w-[560px] w-full pt-10 rounded-lg p-6 sm:mb-3 ">
-            <img className="w-full mt-9 h-full object-cover sm:ml-[12px] sm:mr-8" src="/pic-09.png" alt="Arjun Mehta" />
+          <div className="relative md:h-[560px] h-[400px] md:w-[560px] w-full pt-10 rounded-lg p-6 sm:mb-3">
+            <img
+              className="w-full mt-9 h-full object-cover sm:ml-[12px] sm:mr-8"
+              src="/pic-09.png"
+              alt="Arjun Mehta"
+              style={{ transform: 'translateX(2in)' }} // Moves the image 2 inches to the right
+            />
           </div>
+
         </motion.div>
       </div>
     </section>

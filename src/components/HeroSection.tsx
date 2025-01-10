@@ -126,7 +126,7 @@ function HeroSection() {
               alt="Hero Image"
             />
 
-            <div className="flex items-center gap-2 sm:h-[100px] sm:w-[200px] text-lg sm:ml-[650px]">
+            <div className="flex items-center gap-2 sm:h-[100px] sm:w-[200px] text-lg sm:ml-[0px]">
               <img className="sm:h-full  sm:w-full" src="/pic-18.png" />
             </div>
           </div>
