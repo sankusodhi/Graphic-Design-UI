@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <motion.nav
-     
+
       className="bg-[#0f0e24] border-b-[0.1px]  text-white sm:px-20 py-4 sm:pl-60 flex justify-between items-center shadow-bottom-white relative z-50 right-0"
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
@@ -24,7 +24,27 @@ export default function Navbar() {
       <ul className="hidden md:flex space-x-8">
         {navItems.map((item) => (
           <li key={item.name} className="group relative">
-            <span className="cursor-pointer">{item.name}</span>
+            <span className="cursor-pointer flex items-center gap-2">
+              {item.name}
+              <span className="cursor-pointer">
+                {/* SVG Arrow */}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-4 h-4"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </span>
+            </span>
+
             {/* Dropdown Menu */}
             <div className="absolute left-0 hidden group-hover:block bg-[#1e1c3d] py-2 mt-2 rounded shadow-lg">
               {item.subItems.map((subItem) => (
@@ -42,7 +62,7 @@ export default function Navbar() {
       </ul>
 
       {/* Right Navigation Buttons */}
-   
+
       <div className="sm:flex items-center sm:justify-between space-x-4 sm:ml-32 ">
         <a
           href="#"
@@ -51,21 +71,21 @@ export default function Navbar() {
           Hire Talent ↗
         </a>
         <div className="flex items-center justify-between gap-24">
-        <a
-          href="#"
-          className="bg-[#1600ea] px-6 py-2  rounded hover:bg-blue-500 transition "
-        >
-          Get Started
-        </a>
+          <a
+            href="#"
+            className="bg-[#1600ea] px-6 py-2  rounded hover:bg-blue-500 transition "
+          >
+            Get Started
+          </a>
 
-        {/* Mobile Menu Button */}
-        <button
-      
-          className="flex sm:hidden sm:ml-8 w-full h-full text-white"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          <GiHamburgerMenu className="w-12 h-12 ml-20" />
-        </button>
+          {/* Mobile Menu Button */}
+          <button
+
+            className="flex sm:hidden sm:ml-8 w-full h-full text-white"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <GiHamburgerMenu className="w-12 h-12 ml-20" />
+          </button>
         </div>
       </div>
 
@@ -81,7 +101,7 @@ export default function Navbar() {
             <div key={item.name} className="flex justify-evenly ">
               <span className="font-bold mb-2 flex">{item.name}</span>
               {item.subItems.map((subItem) => (
-                <a 
+                <a
                   key={subItem}
                   href="#"
                   className=" flex-col pl-4 py-1 hover:bg-[#2e2c4d] transition"
