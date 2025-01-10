@@ -155,7 +155,7 @@ function HeroSection() {
       transition={{ duration: 0.8, ease: 'easeOut' }}
     >
 
-      <div className="container sm:ml-20  lg:pr-20 sm:pl-10  flex flex-col md:flex-row items-center">
+      <div className="container sm:ml-20  lg:pr-20 sm:pl-7  flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 text-center md:text-left">
           <motion.h1
             className="text-4xl md:text-6xl  mb-6 space-y-2"
@@ -192,7 +192,7 @@ function HeroSection() {
           <div>
             {/* Adjusted margin-left to move the image to the right */}
             <img
-              className="sm:w-[616px] sm:h-[500px] sm:ml-[280px] lg:ml-[200px] sm:mt-10 mb-6 mr-46"
+              className="sm:w-[603px] sm:h-[500px] sm:ml-[280px] lg:ml-[200px] sm:mt-10 mb-6 mr-46"
               src="/pic-01.png"
               alt="Hero Image"
             />
