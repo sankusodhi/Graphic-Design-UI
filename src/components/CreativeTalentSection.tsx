@@ -70,7 +70,7 @@ const CreativeTalentSection = () => {
               className="w-full mt-9 h-full object-cover sm:ml-[12px] sm:mr-8"
               src="/pic-09.png"
               alt="Arjun Mehta"
-              style={{ transform: 'translateX(2in)' }} // Moves the image 2 inches to the right
+              style={{ transform: 'translateX(in)' }} // Moves the image 2 inches to the right
             />
           </div>
 
