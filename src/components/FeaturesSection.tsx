@@ -50,7 +50,7 @@ function FeaturesSection() {
               >
                 <img src={feature.icon} alt={feature.title} className="w-16 h-16 mb-4" />
                 <h3 className="text-4xl  mb-2">{feature.title}</h3>
-                <p className="text-sm text-gray-300">{feature.description}</p>
+                <p className="text-xl text-gray-300">{feature.description}</p>
               </motion.div>
             ))}
           </div>
