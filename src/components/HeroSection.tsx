@@ -192,7 +192,7 @@ function HeroSection() {
           <div>
             {/* Adjusted margin-left to move the image to the right */}
             <img
-              className="sm:w-[616px] sm:h-[500px] sm:ml-[280px] lg:ml-[400px] sm:mt-10 mb-6 mr-46"
+              className="sm:w-[616px] sm:h-[500px] sm:ml-[280px] lg:ml-[200px] sm:mt-10 mb-6 mr-46"
               src="/pic-01.png"
               alt="Hero Image"
             />
